@@ -8,25 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		87A16CE4279576FA00051C64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A16CE3279576FA00051C64 /* AppDelegate.swift */; };
-		87A16CE6279576FA00051C64 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 87A16CE5279576FA00051C64 /* GameScene.sks */; };
-		87A16CE8279576FA00051C64 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 87A16CE7279576FA00051C64 /* Actions.sks */; };
 		87A16CEA279576FA00051C64 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A16CE9279576FA00051C64 /* GameScene.swift */; };
 		87A16CEC279576FA00051C64 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A16CEB279576FA00051C64 /* GameViewController.swift */; };
 		87A16CEF279576FA00051C64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87A16CED279576FA00051C64 /* Main.storyboard */; };
 		87A16CF1279576FD00051C64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87A16CF0279576FD00051C64 /* Assets.xcassets */; };
 		87A16CF4279576FD00051C64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87A16CF2279576FD00051C64 /* LaunchScreen.storyboard */; };
+		87A16D002795D55E00051C64 /* fear_moan.wav in Resources */ = {isa = PBXBuildFile; fileRef = 87A16CFB2795D55E00051C64 /* fear_moan.wav */; };
+		87A16D012795D55E00051C64 /* fear_wall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 87A16CFC2795D55E00051C64 /* fear_wall.mp3 */; };
+		87A16D022795D55E00051C64 /* fear_lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 87A16CFD2795D55E00051C64 /* fear_lose.mp3 */; };
+		87A16D032795D55E00051C64 /* fear_bg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 87A16CFE2795D55E00051C64 /* fear_bg.mp3 */; };
+		87A16D042795D55E00051C64 /* fear_win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 87A16CFF2795D55E00051C64 /* fear_win.mp3 */; };
+		87A16D062795D59700051C64 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 87A16D052795D59700051C64 /* GameScene.sks */; };
+		87A16D082795D59F00051C64 /* Wall.sks in Resources */ = {isa = PBXBuildFile; fileRef = 87A16D072795D59F00051C64 /* Wall.sks */; };
+		87A16D0A2795D5A600051C64 /* Room.sks in Resources */ = {isa = PBXBuildFile; fileRef = 87A16D092795D5A600051C64 /* Room.sks */; };
+		87A16D0C2795D5F200051C64 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A16D0B2795D5F200051C64 /* MenuScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		87A16CE0279576FA00051C64 /* SpriteKitSceneEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitSceneEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87A16CE3279576FA00051C64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		87A16CE5279576FA00051C64 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		87A16CE7279576FA00051C64 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		87A16CE9279576FA00051C64 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		87A16CEB279576FA00051C64 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		87A16CEE279576FA00051C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87A16CF0279576FD00051C64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87A16CF3279576FD00051C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87A16CFB2795D55E00051C64 /* fear_moan.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fear_moan.wav; sourceTree = "<group>"; };
+		87A16CFC2795D55E00051C64 /* fear_wall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fear_wall.mp3; sourceTree = "<group>"; };
+		87A16CFD2795D55E00051C64 /* fear_lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fear_lose.mp3; sourceTree = "<group>"; };
+		87A16CFE2795D55E00051C64 /* fear_bg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fear_bg.mp3; sourceTree = "<group>"; };
+		87A16CFF2795D55E00051C64 /* fear_win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fear_win.mp3; sourceTree = "<group>"; };
+		87A16D052795D59700051C64 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		87A16D072795D59F00051C64 /* Wall.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Wall.sks; sourceTree = "<group>"; };
+		87A16D092795D5A600051C64 /* Room.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Room.sks; sourceTree = "<group>"; };
+		87A16D0B2795D5F200051C64 /* MenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,15 +74,30 @@
 			isa = PBXGroup;
 			children = (
 				87A16CE3279576FA00051C64 /* AppDelegate.swift */,
-				87A16CE5279576FA00051C64 /* GameScene.sks */,
-				87A16CE7279576FA00051C64 /* Actions.sks */,
+				87A16D052795D59700051C64 /* GameScene.sks */,
+				87A16D072795D59F00051C64 /* Wall.sks */,
+				87A16D092795D5A600051C64 /* Room.sks */,
 				87A16CE9279576FA00051C64 /* GameScene.swift */,
 				87A16CEB279576FA00051C64 /* GameViewController.swift */,
+				87A16D0B2795D5F200051C64 /* MenuScene.swift */,
 				87A16CED279576FA00051C64 /* Main.storyboard */,
 				87A16CF0279576FD00051C64 /* Assets.xcassets */,
+				87A16CFA2795D55E00051C64 /* Sounds */,
 				87A16CF2279576FD00051C64 /* LaunchScreen.storyboard */,
 			);
 			path = SpriteKitSceneEditor;
+			sourceTree = "<group>";
+		};
+		87A16CFA2795D55E00051C64 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				87A16CFB2795D55E00051C64 /* fear_moan.wav */,
+				87A16CFC2795D55E00051C64 /* fear_wall.mp3 */,
+				87A16CFD2795D55E00051C64 /* fear_lose.mp3 */,
+				87A16CFE2795D55E00051C64 /* fear_bg.mp3 */,
+				87A16CFF2795D55E00051C64 /* fear_win.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,11 +158,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87A16D0A2795D5A600051C64 /* Room.sks in Resources */,
 				87A16CEF279576FA00051C64 /* Main.storyboard in Resources */,
-				87A16CE6279576FA00051C64 /* GameScene.sks in Resources */,
+				87A16D082795D59F00051C64 /* Wall.sks in Resources */,
+				87A16D002795D55E00051C64 /* fear_moan.wav in Resources */,
+				87A16D032795D55E00051C64 /* fear_bg.mp3 in Resources */,
+				87A16D022795D55E00051C64 /* fear_lose.mp3 in Resources */,
+				87A16D042795D55E00051C64 /* fear_win.mp3 in Resources */,
+				87A16D012795D55E00051C64 /* fear_wall.mp3 in Resources */,
+				87A16D062795D59700051C64 /* GameScene.sks in Resources */,
 				87A16CF1279576FD00051C64 /* Assets.xcassets in Resources */,
 				87A16CF4279576FD00051C64 /* LaunchScreen.storyboard in Resources */,
-				87A16CE8279576FA00051C64 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87A16CEA279576FA00051C64 /* GameScene.swift in Sources */,
+				87A16D0C2795D5F200051C64 /* MenuScene.swift in Sources */,
 				87A16CEC279576FA00051C64 /* GameViewController.swift in Sources */,
 				87A16CE4279576FA00051C64 /* AppDelegate.swift in Sources */,
 			);
@@ -301,6 +337,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -330,6 +367,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
